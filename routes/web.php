@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('about', 'AboutControllers@index');
+Route::get('todos', 'TodosController@index');
 
